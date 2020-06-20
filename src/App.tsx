@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
 import TodoList from "./components/todoList";
+import "./App.less";
 
 function App() {
   return (
     <>
-      <TodoList></TodoList>
+      <div className="todoList">
+        <TodoList />
+      </div>
     </>
   );
 }

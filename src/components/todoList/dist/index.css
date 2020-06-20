@@ -1,6 +1,11 @@
 .container {
-  border: 5px solid blue;
+  max-width: 1000px;
+  width: 100%;
 }
-.container .headerr {
-  border: 10px solid red;
+.container Header {
+  background-color: #309df6;
+}
+.container Header .title {
+  font-size: 2em;
+  text-align: center;
 }
